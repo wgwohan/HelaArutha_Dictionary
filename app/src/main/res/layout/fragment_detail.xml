@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:background="#fdfdfd"
+        android:elevation="3dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <TextView
+            android:id="@+id/tvWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Word"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/ic_edit"/>
+        <!--<ImageButton
+            android:id="@+id/btnBookmark"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_bookmark_border"
+            android:layout_gravity="center_vertical"/>-->
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+        <TextView
+            android:id="@+id/tvWordTranslate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:background="#fff"
+            android:text="Sample meaning"
+            android:textSize="20sp" />
+    </ScrollView>
+</LinearLayout>

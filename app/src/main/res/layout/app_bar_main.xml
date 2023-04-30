@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.HelaArutha.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.HelaArutha.PopupOverlay"
+            app:contentInsetStartWithNavigation="0dp"
+            android:elevation="4dp">
+
+            <EditText
+                android:id="@+id/edit_search"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/radius_edit_text"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="3dp"
+                android:hint="@string/search"
+                android:paddingStart="10dp"
+                android:textColor="#000"
+                android:textColorHint="#9b9a9a"
+                android:textSize="20sp"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                tools:ignore="RtlSymmetry" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--<group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/ic_bookmark"
+            android:title="@string/bookmarks" />
+    </group>-->
+
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_thumb_up"
+                android:title="@string/rate_this_app"/>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share_this_app"/>
+
+            <item
+                android:id="@+id/nav_ad"
+                android:icon="@drawable/ic_ad"
+                android:title="@string/watch_an_advertisement"/>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_new"
+                android:icon="@drawable/ic_add"
+                android:title="@string/add_new" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_info"
+                android:title="@string/about_us" />
+        </menu>
+    </item>
+
+</menu>

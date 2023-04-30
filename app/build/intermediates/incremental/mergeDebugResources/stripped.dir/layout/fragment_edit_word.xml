@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditWordFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="60dp"
+        android:text="වචනයක් නිවැරදි කිරීම"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/wrongWord"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:background="@color/lightgray"
+        android:text="වචනය"/>
+
+    <EditText
+        android:id="@+id/editWord"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:background="@color/lightgray"
+        android:hint="වචනය නිවැරදි විය යුතු ආකාරය"
+        android:importantForAutofill="no"
+        android:padding="8dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/wrongWordMean"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:background="@color/lightgray"
+        android:text="අර්ථය"/>
+
+    <EditText
+        android:id="@+id/editWordMean"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:background="@color/lightgray"
+        android:hint="අර්ථය නිවැරදි විය යුතු ආකාරය"
+        android:importantForAutofill="no"
+        android:padding="8dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:textSize="16sp"
+        android:padding="24dp"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Hela Arutha</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_subtitle">හෙළබසේ නියම අරුත!</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="about_us">About Us</string>
+    <string name="add_new">Add new word</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="others">Others</string>
+    <string name="watch_an_advertisement">Watch an advertisement</string>
+    <string name="support">Support</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search">Search</string>
+    <string name="disclaimerSI">හෙළ අරුත මෘදුකාංගය සියලුදෙනාට නොමිලේ භාවිතය සඳහා සකසා ඇත. මෙහි අන්තර්ගතය හැකිතාක් නිරවද්‍ය තොරතුරු මූළාශ ඇසුරින් සකසා ඇති නමුත් 100% නිවැරදි තොරතුරු යැයි පැවසීමට අසීරුය. දිනෙන් දින වැඩෙන දත්ත ගොනුවක් සහිත මෙම මෘදුකාංගය නිරතුරුවම අප දෝශ නිරාකරණය කරමින් වඩාත් ඵලදායී ලෙස මෙම මෘදුකාංගය පවත්වා ගැනීමට කටයුතු කරන අතර, එයට සහයෝගයක් වශයෙන් ඔබ යම්කිසි දෝශයක් දුටුවහොත් අප වෙත දැනුම් දෙතැයි අප බලාපොරොත්තු වෙමු.</string>
+    <string name="disclaimerEN">Hela Arutha application is created for free to use by everyone. And the content of this app is believed to be accurate but may contain information from third parties. We are hardly trying to review them all, but we can\'t 100% guarantee. If you found any wrong content or any other problem with this application please let us know. We\'ll fix it ASAP. And it\'ll be a great thing for all the users too.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="newWord">නව වචනය</string>
+    <string name="newWordMean">නව වචනයේ අර්ථය</string>
+    <string name="send">යවන්න</string>
+    <string name="addNewWord">නව වචනයක් ඇතුලත් කිරීම</string>
+</resources>
